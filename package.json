@@ -1,0 +1,35 @@
+{
+  "name": "rconcli",
+  "version": "1.0.0",
+  "description": "Rcon Command Line Interface",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node bin/index.js"
+  },
+  "bin": {
+    "rconcli": "node bin/index.js"
+  },
+  "lib": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qzconnor/rconcli.git"
+  },
+  "keywords": [
+    "RCON",
+    "CLI"
+  ],
+  "author": "xConnorTV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qzconnor/rconcli/issues"
+  },
+  "homepage": "https://github.com/qzconnor/rconcli#readme",
+  "dependencies": {
+    "appdata-path": "^1.0.0",
+    "figlet": "^1.5.2",
+    "prompts": "^2.4.2",
+    "rcon-client": "^4.2.3"
+  }
+}
